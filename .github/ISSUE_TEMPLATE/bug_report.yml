@@ -1,0 +1,20 @@
+name: Bug report
+description: Report a problem with Forever QOL
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: "In game, open /fqol bug, describe the problem, and copy the report. Review error text for private information before sharing."
+  - type: textarea
+    id: report
+    attributes:
+      label: Bug report
+      description: Paste the report from Forever QOL here, including steps, expected result and actual result.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots and other addons
+      description: Attach screenshots and mention other addons involved. Remove private chat or character information first.
